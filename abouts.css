@@ -1,0 +1,59 @@
+*{
+	box-sizing:border-box;
+	margin:0px;
+	padding:0px;
+	font-family:calibri;
+}
+body{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+#aboutus h2{
+	font-size:40px;
+	color:#A569BD;
+	}
+#aboutus p{
+		letter-spacing:1px;
+		font-size:15px;
+		margin:10px 0;
+}
+.line{
+	width:70%;
+	color:ff4532;
+}
+.img-wrap{width:width:100%}
+.img-wrap img{
+	width:100%;
+	padding:20px;
+	border-radius:50%;
+	box-shadow:0 0 10px #ff8086;
+}
+.name{
+	font-size:20px;
+	color:green;
+	margin-top:10px;
+	text-align:center;
+}
+.social {
+	margin-top:5px;
+}
+.social a{
+	margin:10px;
+	text-align:center;
+}
+.social a i{
+	transition:all 0.3s linear;
+}
+.social a:hover i{
+	transform:scale(1.4);
+}
+.fa-instagram{
+	color:#e84393;
+}
+.fa-facebook{
+	color:blue;
+}
+.fa-twitter{
+	color:#0097e6;
+}
